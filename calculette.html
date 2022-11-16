@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>The Sostheneous machine</title>
+    <link rel="stylesheet" href="apparence.css">
+    <script src="calculScript.js"></script>
+</head>
+<body>
+    <div class="corps">
+
+        <div id="auteur">The Sosthenous machine</div>
+        <div id="ecran" ></div>
+
+        
+        <div class="line1">
+            <button type="button" style="color: white;" id="ajoute" onclick='recupValeur(this)'>+</button>
+            <button type="button" style="color: white;" id="soustraie" onclick='recupValeur(this)'>-</button>
+            <button type="button" style="color: white;" id="multiplie" onclick='recupValeur(this)'>*</button>
+            <button type="button" style="color: white;" id="divise" onclick='recupValeur(this)'>/</button> 
+        </div>
+
+        <div class="bas">
+
+            <div class="conteneur">
+
+                <div class="line2">
+                    <button type="button" style="color: white;" id="sept" onclick='recupValeur(this)'>7</button>
+                    <button type="button" style="color: white;" id="huit" onclick='recupValeur(this)'>8</button>
+                    <button type="button" style="color: white;" id="neuf" onclick='recupValeur(this)'>9</button>
+                </div>
+                <div class="line3">
+                    <button type="button" style="color: white;" id="quatre" onclick='recupValeur(this)'>4</button>
+                    <button type="button" style="color: white;" id="cinq" onclick='recupValeur(this)'>5</button>
+                    <button type="button" style="color: white;" id="six" onclick='recupValeur(this)'>6</button>
+                </div>
+                <div class="line4">
+                    <button type="button" style="color: white;" id="un" onclick='recupValeur(this)'>1</button>
+                    <button type="button" style="color: white;" id="deux" onclick='recupValeur(this)'>2</button>
+                    <button type="button" style="color: white;" id="trois" onclick='recupValeur(this)'>3</button>
+                </div>
+                
+                <div class="line5">
+                    <button type="button" style="color: white;" id="zero" onclick='recupValeur(this)'>0</button>
+                    <button type="button" style="color: white;" id="point" onclick='recupValeur(this)'>.</button>
+                    <button type="button" style="color: white;" id="C" onclick='reset()'>C</button> 
+                </div>
+    
+            </div>
+            
+            <button type="button" id="egal" style="color: white;" onclick='calculValeur()'>=</button>
+
+        </div>
+        
+        
+        
+    </div>
+
+    
+   
+
+</body>
+</html>

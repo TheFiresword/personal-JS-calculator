@@ -1,0 +1,176 @@
+.corps
+{
+    height: 9.9cm;
+    width: 9.9cm;
+    border: 1px solid  rgb(38, 51, 51);
+    color:  rgb(38, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    background-color: rgb(207, 218, 218);
+    color: white;
+    text-align: center;
+}
+#auteur
+{
+    color: black;
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+#ecran,.line1
+{
+    width: 8.9cm;
+    height: 1cm;
+    border: solid 1px  rgb(38, 51, 51);
+}
+#ecran
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: bolder;
+    background-color: aquamarine;
+}
+.line1
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: none;
+}
+#ajoute,#soustraie,#multiplie,#divise,#C,#un,#deux,#trois,#quatre,#cinq,#six,#sept,#huit,#neuf,#zero,#point
+{
+height: 1cm;
+width: 2cm;
+border: 1px solid rgb(38, 51, 51) ;
+background-color: brown;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 1rem;
+}
+#ajoute:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#soustraie:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#multiplie:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#divise:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#C:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#un:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#deux:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#trois:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#quatre:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#cinq:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#six:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#sept:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#huit:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#neuf:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#zero:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#point:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+#egal:hover
+{
+ background-color:rgb(214, 83, 51);
+ cursor: pointer;
+}
+
+.bas
+{
+    display: flex;
+    flex-direction: row;
+    height: 5.5cm;
+    width: 8.9cm;
+    justify-content: space-between;
+}
+.line2,.line3,.line4,.line5
+{
+ display: flex;
+ flex-direction: row;
+ height: 1cm;
+ width: 6.6cm;
+ justify-content: space-between;
+}
+.conteneur
+{
+    display: flex;
+    flex-direction: column;
+    height: 5.5cm;
+    width: 6.6cm;
+    justify-content: space-between;
+}
+#egal
+{
+    height: 5.5cm;
+    width: 2cm;
+    border: 1px solid rgb(38, 51, 51) ;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+}
