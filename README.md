@@ -1,4 +1,4 @@
-# calculator project
-This is a calcul machine implemented with javascript.<br>
-Look at the png image to see the result<br>
+# Calculator project
+![image](html_page.png)
+This is a calcul machine implemented with javascript.
 date:2022
